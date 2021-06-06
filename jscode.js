@@ -62,7 +62,7 @@ function swapper() {
       overlay.style.filter = "blur(10px)";
       winner.innerHTML = "You Won";
       result.style.display = "block";
-    } else {
+    } if(computerScore == userScore) {
       overlay.style.filter = "blur(10px)";
       winner.innerHTML = "It's A Draw";
       result.style.display = "block";
@@ -95,7 +95,7 @@ function swapper2() {
       overlay.style.filter = "blur(10px)";
       winner.innerHTML = "You Won";
       result.style.display = "block";
-    } else {
+    }if(computerScore == userScore)   {
       overlay.style.filter = "blur(10px)";
       winner.innerHTML = "It's A Draw";
       result.style.display = "block";
@@ -128,7 +128,7 @@ function swapper3() {
       overlay.style.filter = "blur(10px)";
       winner.innerHTML = "You Won";
       result.style.display = "block";
-    } else {
+    } if(computerScore == userScore)  {
       overlay.style.filter = "blur(10px)";
       winner.innerHTML = "It's A Draw";
       result.style.display = "block";
