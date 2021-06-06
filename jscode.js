@@ -41,7 +41,6 @@ function swapper() {
 
   if (counter < 3) {
     counter += 1;
-    console.log(counter);
     let res = choosePic();
     if (res == "https://ik.imagekit.io/kmclllhgwqm/stone3_B7OMm2BxP.png") {}
     if (res == "https://ik.imagekit.io/kmclllhgwqm/paper4_vdjkq3UXo.png") {
@@ -146,7 +145,6 @@ function playagain() {
   counter = 0;
   document.getElementById("scoreComputer").innerHTML = computerScore;
   document.getElementById("scoreUser").innerHTML = userScore;
-  user.style.width = "200px";
   user.src = "https://ik.imagekit.io/kmclllhgwqm/user_9McwxzVr2.png";
   document.getElementById("computer").src="https://ik.imagekit.io/kmclllhgwqm/computer2_UNxqBofs2.png"
 
